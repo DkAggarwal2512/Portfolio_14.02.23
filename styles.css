@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Source+Code+Pro:ital@1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.sidebar{
+    position: absolute;
+    background-color: darkseagreen;
+transition: transform 0.3s ease-in;
+    font-family: 'fira Sans',sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+
+.main{
+    background-color: bisque;
+    width: 90vw;
+}
+
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: lightseagreen;
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+}
+
+.hello{
+
+    font-size: 3em;
+    
+}
+.name{font-size: 3em;
+    font-weight: bold;
+    font-family: 'fira Sans',sans-serif;
+
+}
+.about{ font-size: 2.5em;
+}
+
+.MoreAbout{
+    font-size: 2em;
+    font-family: 'fira Sans',sans-serif;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+
+.btn{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 3px 3px;
+    background-color:grey;
+    color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+.btn-sm{
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+
+
+
+
+.btn:hover{
+    background-color: rgb(12, 108, 199);
+    color: cornflowerblue;
+}
+
+
+
+.devPic img{    
+    height: 45vh;
+    }
+
+    .contactform {
+        font-family: 'fira Sans',sans-serif;
+        padding: 30px;
+        margin:  88px;
+
+    }
+    
+
+    .contactform h1{
+             font-family: 'Source Code Pro',monospace;
+             text-align: center;
+             /*padding: 12px 0;*/
+    }
+    .contactform form div{
+        padding: 10px 0;
+        display: flex;
+flex-direction: column;
+    }
+
+
+   
+    .contactform form div input{
+        
+       /* width: 26vw;
+        border-radius: 5px;
+        margin: 5px 0 0 0;
+        padding: 3px ;*/
+    }
+
+    .contactform form{
+        margin: 0 50px;
+     }
+
+    #emailHelp{
+        font-size: 10px;
+        color: bisque;
+        margin: 0 5px;
+        padding: 3px;
+    }
+
+
+    #form-check{
+        flex-direction: row;
+        
+
+    }
+
+    
+    #form-check input{
+     width: 24px;   
+    margin: 3px 0;
+
+    }
+
+    .blogitem{
+        margin: 20px;
+        font-family: 'fira Sans',sans-serif;
+
+
+    }
+
+
+    
+    .blogContainer{
+        margin: 80 100px;
+    }
+     h1{
+
+        font-family: 'fira Sans',sans-serif;
+        margin: 25px;
+        
+    }
+
+
+
+    
+    .blogitem p{
+        font-family: 'Source Code Pro',monospace;
+    }
+    .intro{
+        margin:  90px;
+    }
+
+    .intro h1{
+        font-family: 'fira Sans',sans-serif;
+        margin: 12px;
+    }
+
+    .intro p{
+        font-family: 'Source Code Pro',monospace;
+        margin: 12px;
+    }
+
+.skillcontainer{
+    padding: 12px;
+
+}
+.skillitem{
+    display: flex;
+    font-family: 'Source Code Pro',monospace;
+    font-weight: 500;
+}
+
+
+
+    .skill{
+        width: 250PX;
+        height: 6PX;
+        background-color: cadetblue;
+        border-radius: 5px;
+        border: solid black;
+    }
+
+
+    .hundered{
+        width: 250px;
+        background-color: olivedrab;
+    }
+
+
+    
+    .fifty{
+        width: 125px;
+        background-color: burlywood;
+    }
+
+    
+    .t5{
+        width: 100px;
+        background-color: cornflowerblue;
+    }
+     .sidebarGo{
+          transform: translate(-443px, 0px);
+          position: absolute;
+      }
+
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+
+
+
+    @media (max-width: 1615px) {
+        *{
+
+        background-color: rgb(59, 105, 98);
+        }
+
+        .btn{
+            font-size: 15px;
+        }
+        
+.devPic{
+    display: none;
+
+}
+
+.intro, .blogContainer, .contactform{
+    margin:50px 8px;
+}
+
+.devinfo{
+    font-size: 10px;
+}
+
+       
+    }
